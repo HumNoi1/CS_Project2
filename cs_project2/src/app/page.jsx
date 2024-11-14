@@ -1,11 +1,7 @@
+import Dashboards from './components/Dashboards';
 
-//components
-import Navbar from './components/navbar';
-
-export default function Home({ Component, pageProps }) {
+export default function App() {
   return (
-    <div className='md:flex'>
-      <Navbar />
-    </div>
+    <Dashboards />
   );
 }
